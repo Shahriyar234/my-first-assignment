@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 /* shared font style */
@@ -61,7 +62,7 @@
  .banner{
     margin: 200px;
     align-items: center;
-    margin-left: 350px;
+    margin-left: 275px;
     width: 905px;
     height: 237px;
     
@@ -125,6 +126,44 @@
     color: white;
     font-size: 16px;
     font-weight: bold;
+}
+
+/* productive user style */
+
+.productive{
+   text-align: center;
+   background-color: rgba(78 , 71, 255, 10%);
+   height: 308px;
+   width: 968px;
+   margin: 130px;
+   margin-left: 200px;
+   padding-left: 100px;
+   border-radius: 25px;
+   }
+.productive-user{
+   font-size: 38px;
+   font-weight: bold;
+   color: rgb(37, 36, 50);
+   width: 856px;
+   height: 45px;
+   margin-bottom: 40px;
+   padding-top: 50px;
+   
+}
+
+.productive-info{
+   display: flex;
+   gap: 180px;
+   padding-bottom: 50px;
+}
+.productive-title{
+   font-size: 80px;
+   font-weight: bold;
+   color: #4E47FF;
+}
+.productive-subtitle{
+   font-size: 20px;
+   color: rgba(0, 0, 0, 50%);
 }
  
 
