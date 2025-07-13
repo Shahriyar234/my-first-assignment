@@ -57,3 +57,74 @@
     background-image: url(../assets/hero-bg.png);
     background-size: cover;
 }
+/* banner styles */
+ .banner{
+    margin: 200px;
+    align-items: center;
+    margin-left: 350px;
+    width: 905px;
+    height: 237px;
+    
+ }
+ .banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(37, 36, 50);
+ }
+ .button-stay{
+    margin-left: 330px;
+    margin-top: 37px;
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(78, 71, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+ /* action styles */
+ .action-area{
+    display: flex;
+    gap: 220px;
+    justify-content: center;
+    margin-top: 116px;
+    
+ }
+.action-image img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+ }
+
+ .action-content{
+    margin-top: 63px;
+ }
+
+ .action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(37, 36, 50);
+ }
+
+ .action-description{
+    margin-top: 23px;
+    width: 470px;
+    height: 60px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 50%);
+ }
+ .action-button{
+    margin-top: 23px;
+    background-color: rgb(78, 71, 255);
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+ 
+
