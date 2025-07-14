@@ -3,6 +3,9 @@
     margin: 0;
     
 }
+body{
+   background-color: rgb(243, 246, 255);
+}
 
 /* shared font style */
  
@@ -62,7 +65,7 @@
  .banner{
     margin: 200px;
     align-items: center;
-    margin-left: 275px;
+    margin-left: 300px;
     width: 905px;
     height: 237px;
     
@@ -74,7 +77,7 @@
     color: rgb(37, 36, 50);
  }
  .button-stay{
-    margin-left: 330px;
+    margin-left: 3px;
     margin-top: 37px;
     width: 174px;
     height: 48px;
@@ -186,7 +189,7 @@
  .review-box{
    text-align: left;
    width: 300px;
-   border: 3px solid rgb(242, 237, 237);
+   border: 1px solid rgb(242, 237, 237);
    border-radius: 14px;
    margin-left: 2px;
    padding: 24px 24px;
@@ -224,13 +227,13 @@
 .highlight-area{
    text-align: center;
    background-color: white;
-   border: 3px solid rgba(0, 0, 0, 30%);
-   border-radius: 14px;
+   /* border: 3px solid rgb(242, 237, 237); */
    border-radius: 14px;
    width: 1140px;
   height: 670px;
   margin-left: 170px;
   margin-bottom: 100px;
+  padding-top: 10px;
 }
 .highlight-title{
    font-size: 50px;
@@ -258,4 +261,57 @@
    width: 840px;
    height: 370px;
    border-radius: 48px;
+}
+
+/* newsletter area design */
+
+form{
+   margin-bottom: 8px;
+}
+.newsletter{
+   display: flex;
+   justify-content: center;
+   gap: 115px;
+   align-items: center;
+}
+.newsletter-title{
+   font-size: 70px;
+   width: 528px;
+   height: 232px;
+}
+.newsletter-for label{
+   font-size: 16px;
+   font-weight: 500px;
+   
+   
+}
+.newsletter-for input[type="text"], .newsletter-for input[type="email"]{
+   width: 350px;
+   height: 60px;
+   border: none;
+   border: 1px solid rgb(214, 221, 237);
+   border-radius: 10px;
+   padding-left: 20px;
+}
+.newsletter-for textarea{
+   border: none;
+   border: 1px solid rgb(214, 221, 237);
+   border-radius: 10px;
+   width: 350px;
+   height: 100px;
+   padding-left: 20px;
+   padding-top: 20px;
+}
+
+/* last button style */
+.newsletter-button{
+   width: 370px;
+   height: 40px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+   background-color: rgb(78, 71, 255);
+   margin-bottom: 20px;
+   font-size: 16px;
+   font-weight: bold;
 }
