@@ -85,6 +85,7 @@ button:hover{
     font-weight: bold;
     text-align: center;
     color: rgb(37, 36, 50);
+    margin-left: 40px;
  }
  .button-stay{
     margin-left: 350px;
@@ -335,6 +336,7 @@ footer{
   background-color: white;
   background-position: cover;
   padding-top: 90px;
+  text-align: center;
    
    
 }
@@ -343,7 +345,6 @@ footer h1{
    font-size: 70px;
    font-weight: bold;
    margin-bottom: 5px;
-   text-align: center;
 }
 footer p{
    font-size: 12px;
@@ -352,7 +353,7 @@ footer p{
    height: 41px;
    margin-bottom: 10px;
    margin-left: 550px;
-   text-align: center;
+   
 }
 .footer-link ul{
    display: flex;
