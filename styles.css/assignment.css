@@ -349,10 +349,10 @@ footer h1{
 footer p{
    font-size: 12px;
    color: rgb(137, 135, 161);
-   width: 400px;
-   height: 41px;
    margin-bottom: 10px;
-   margin-left: 550px;
+   margin: 0 auto;
+   height: 40px;
+   width: 400px;
    
 }
 .footer-link ul{
